@@ -1,0 +1,20 @@
+✅01_variable notes
+Q-> Diffrence between Let and Var
+- `let` works in a function scope while `var` works in the block scope.
+Note: Prefer Not to use Var.
+
+✅ 02_dataTypes notes
+
+Note: For Documentation
+- tc39.com (ecmaScript)
+- mdn
+
+#DataTypes -Primitive -Reference
+*Primitives DataTypes
+int => 1,2,3,4,5...
+string => "Amit"
+boolean=> true/false
+null => standalone value
+undefined => abhi value assigned nhi hui hai. Ex- let x;
+
+*Reference DataTypes
