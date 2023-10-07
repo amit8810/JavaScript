@@ -16,3 +16,12 @@ console.log("A " ,myArr) //* A [ 10, 12, 13, 14, 15, 6, 7 ]
 -const myn2 = myArr.splice(1, 3)
 console.log("C ", myArr) //* [10, 15, 6, 7]
 console.log(myn2) //* [ 12, 13, 14 ] 
+
+✅ 03_Object Notes
+
+-object is collection of key value pair
+-key must be unique in object but not necessary for values
+-value can be anything like string number boolean function etc..
+-object are mutable so we can change the value of any property or add new properties to it
+
+//singleton : koi bhi constructor se jab aap banate hai tab singleton object banta hai
