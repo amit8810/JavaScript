@@ -9,8 +9,8 @@ let isLoggesIn = false // boolean
 let state = null
 let score
 
-console.log(typeof score)
-console.log(typeof age);
+console.log(typeof score) // undefined
+console.log(typeof age); // Number
 console.log(typeof null); // object
 console.log(typeof undefined) // undefined
 
@@ -21,6 +21,21 @@ console.log(id == anotherId) // false;
 
 const bigNumber = 3235454555454545n
 console.log(typeof bigNumber) // bigInt
+
+//# Reference Types
+
+const heroes = ["superman", "spiderman", "shaktiman"];
+
+let myObj ={
+    name:"amit",
+    age:20
+}
+
+const myFunction = function(){
+    console.log("Hello world")
+}
+
+console.table([typeof heroes, typeof myObj, typeof myFunction]); // object, object, function
 
 
 
