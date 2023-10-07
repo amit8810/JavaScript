@@ -17,6 +17,7 @@ const result2 = addition(10, 12);
 // console.log("Result2 :", result2) //* 22
 
 //TODO:------------------- fuction with some real example -------------------------
+
 function loginUserMessage(username) {
   if (username === undefined) {
     console.log("Please enter the username");
@@ -28,3 +29,38 @@ function loginUserMessage(username) {
 // console.log(loginUserMessage("")) //*  just logged in
 // console.log(loginUserMessage("Amit")) //* Amit just logged in
 
+//* ---------------- Shopping Cart Problem --------------------------------------------
+
+function calculateCartPrice(...itemPrices) {
+  // using rest operator ...
+  return itemPrices;
+}
+
+// console.log(calculateCartPrice(200, 400, 500, 1000)) //* [ 200, 400, 500, 1000 ]
+//? all value are in now array..and you know how to iterate over the ...then you definately know hoe to sum  array values.... :)
+
+//* ------------------------------ object with function ---------------------------
+const user = {
+  username: "amit8810",
+  price: "999",
+};
+
+function handleObject(anyObject) {
+  console.log(
+    `username is ${anyObject.username} and price is ${anyObject.price}`
+  );
+}
+
+// handleObject(user); //? way 1
+// handleObject({ //? another way
+//   username: "alex",
+//   price: "399",
+// });
+
+//* ------------------------------ Array with function ---------------------------
+
+const myArray = [200,400,100,600]
+function returnSecondValue(getArray){
+    return getArray[1]
+}
+// console.log(returnSecondValue(myArray))
