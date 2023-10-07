@@ -14,6 +14,14 @@ console.log(typeof age);
 console.log(typeof null); // object
 console.log(typeof undefined) // undefined
 
+const id = Symbol('123') // Symbol
+const anotherId = Symbol('123')
+
+console.log(id == anotherId) // false;
+
+const bigNumber = 3235454555454545n
+console.log(typeof bigNumber) // bigInt
+
 
 
 
