@@ -11,10 +11,12 @@ Note: For Documentation
 
 #DataTypes -Primitive -Reference
 *Primitives DataTypes
-int => 1,2,3,4,5...
-string => "Amit"
-boolean=> true/false
-null => standalone value
-undefined => abhi value assigned nhi hui hai. Ex- let x;
+-int => 1,2,3,4,5...
+-string => "Amit"
+-boolean=> true/false
+-null => standalone value
+-undefined => abhi value assigned nhi hui hai. Ex- let x;
 
 *Reference DataTypes
+- object
+- Array
