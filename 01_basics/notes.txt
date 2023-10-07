@@ -20,3 +20,9 @@ Note: For Documentation
 *Reference DataTypes
 - object
 - Array
+
+
+✅ 04_comparision notes
+
+== (check value only)
+=== (check both DataTypes and Value)
