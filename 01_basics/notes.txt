@@ -10,19 +10,26 @@ Note: For Documentation
 - mdn
 
 #DataTypes -Primitive -Reference
-*Primitives DataTypes
--int => 1,2,3,4,5...
+*Primitives DataTypes (call by Value) (you can get copy of it.)
+-Number => 1,2,3,4,5...
 -string => "Amit"
 -boolean=> true/false
 -null => standalone value
--undefined => abhi value assigned nhi hui hai. Ex- let x;
+-undefined => abhi [value] assigned nhi hui hai. Ex- let x;
+-Symbol
+-BigInt
 
-*Reference DataTypes
+*Reference DataTypes (Non Primitive) (call by Reference) (memory Reference allocate)
 - object
 - Array
+- functions
 
 
 ✅ 04_comparision notes
 
 == (check value only)
 === (check both DataTypes and Value)
+
+✅ memory Summary notes
+
+- Stack Memory used for (primitive DataTypes), Heap Memory used for (non-Primitive)

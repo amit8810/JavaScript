@@ -1,0 +1,18 @@
+✅ Array-01 Notes
+- shallow copy : A shallow copy of an object whose properties share the same reference(point to the same underlying values) as those of the source object from which the copy was made.
+
+#Slice and Splice mein diff
+
+-slice krne par origin array se wo part remove nhi hota hai
+-splice krne par use range ke element hi original array se remove ho jate hai
+
+-const myArr = [10, 12, 13, 14, 15, 6, 7 ]
+console.log("A " ,myArr) //* A [ 10, 12, 13, 14, 15, 6, 7 ]
+
+-const myn1 = myArr.slice(1, 3) 
+// console.log(myn1) //* [ 12, 13 ]
+// console.log("B ", myArr) //* B [ 10, 12, 13, 14, 15, 6, 7 ]
+
+-const myn2 = myArr.splice(1, 3)
+console.log("C ", myArr) //* [10, 15, 6, 7]
+console.log(myn2) //* [ 12, 13, 14 ] 
