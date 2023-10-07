@@ -16,7 +16,7 @@ function addition(number1, number2) {
 const result2 = addition(10, 12);
 // console.log("Result2 :", result2) //* 22
 
-//TODO:------------------- fuction with some real example -------------------------
+//TODO:------------------- function with some real example -------------------------
 
 function loginUserMessage(username) {
   if (username === undefined) {
