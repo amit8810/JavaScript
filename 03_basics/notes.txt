@@ -1,0 +1,3 @@
+JavaScript Excution Phases 🚀
+
+-The creation phase includes creating the global and function execution contexts, creating the scope chain, and allocating memories for the variables and functions. During the execution phase, the JavaScript engine executes the code line by line. This includes evaluating and executing statements.
