@@ -1,0 +1,17 @@
+Switch : /kaha use krna hai ?
+- jaha pe jada if else likhne pade...
+
+Nullish Coalescing Operator (??): null undefined
+/- check krne ke liye hota ki value db se null or undefined to nhi aai hai..at the time of fetching
+
+let val1;
+val1 = null ?? 10; // check krne ke liye hot ki database se null value to nhi aai hai
+console.log(val1); // 10
+
+let val2;
+val2 = undefined ?? 15; // check krne ke liye hot ki database se null value to nhi aai hai
+console.log(val2); // 15
+
+let val3
+val3 = 5 ?? 10; /-iss case mein first wali assing ho jati hai
+console.log(val3) // 5
