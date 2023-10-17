@@ -1,0 +1,26 @@
+⚠️#Diff btw innerHTML v/S textContent v/S innerText
+: textContents - is all text contained by an element and all its children that are for formatting purposes only.
+: innerText -  returns all text contained by an element and all its child elements.
+: innerHtml - returns all text, including html tags, that is contained by an element.
+
+🔰Consider the following html code.
+<div id="mylinks">
+  This is my <b>link collection</b>:
+  <ul>
+    <li><a href="www.borland.com">Bye bye <b>Borland</b> </a></li>
+    <li><a href="www.microfocus.com">Welcome to <b>Micro Focus</b></a></li>
+  </ul>
+</div>
+
+#️⃣document.getElementById('mylinks').innerHTML
+✅This is my <b>link collection</b>:
+<ul> 
+  <li><a href="www.borland.com">Bye bye <b>Borland</b></a></li>
+  <li><a href="www.microfocus.com">Welcome to <b>Micro Focus</b></a></li> 
+</ul>
+
+#️⃣document.getElementById('mylinks').innerText
+✅This is my link collection:Bye bye Borland Welcome to Micro Focus
+
+#️⃣document.getElementById('mylinks').textContent
+✅This is my link collection:
