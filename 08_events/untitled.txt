@@ -1,0 +1,16 @@
+--> Bubbling : Bootom to  UP
+
+
+-->capturing -> top to bottom
+
+document.getElementById('images').addEventListener("click", function(e){
+    console.log("clicked inside the url")
+}, true)
+
+document.getElementById('owl').addEventListener("click", function(e){
+    console.log("owl clicked")
+}, true)
+
+## console screen
+clicked inside the url
+owl clicked
