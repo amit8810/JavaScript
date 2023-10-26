@@ -14,3 +14,12 @@ document.getElementById('owl').addEventListener("click", function(e){
 ## console screen
 clicked inside the url
 owl clicked
+
+
+
+## handler = is a callback
+
+##setTime() -> mujhe itna time do mein phir wo kaam kar dunga..lekin ek hi baar karunga
+
+##setInterval() -> mujhe time do, utne time baad mein baar baar wo kaam karta rahunga
+example: we done this in digital clock project
