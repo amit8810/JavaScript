@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>closure</title>
+</head>
+
+<body style="background-color: #212121;">
+
+    <button id="orange">Orange</button>
+    <button id="green">Green</button>
+
+    <script>
+        // Lexical closure
+        function init() {
+            let name = "Mozilla"; // name is a local variable created by init
+            function displayName() {
+                // displayName() is the inner function, that forms the closure
+                console.log(name); // use variable declared in the parent function
+            }
+            return displayName();
+        }
+        init();
+        //this execute bcoz of lexical scope
+        const myFunc = init();
+        myFunc();
+    </script>
+    <script>
+        // document.getElementById("orange").addEventListener('click', () => {
+        //     document.body.style.backgroundColor = "orange"
+        // })
+
+        //Use case of lexical closure
+        function clickHandler(color) {
+            // document.body.style.backgroundColor = `${color}`
+
+            return function () {
+                document.body.style.backgroundColor = `${color}`
+            }
+        }
+
+        document.getElementById("orange").onclick = clickHandler("orange")
+        document.getElementById("green").onclick = clickHandler("green")
+    </script>
+</body>
+
+</html>
